@@ -1,4 +1,7 @@
-%%writefile app.py
+import streamlit as st
+from openai import OpenAI
+from dotenv import load_dotenv
+import os
 import os
 from openai import OpenAI
 import streamlit as st
